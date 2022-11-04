@@ -12,14 +12,9 @@
     <script>
         function call()
         {
-            var r=prompt("enter the number ")
-            var rev=" "
-            for( var i=r.length-1;i>=0;i--)
-            {
-                rev +=r[i]
-            }
-            document.write(`${r} is reversed and the out put is "${rev}"`)
-      
+            var r=parseInt(prompt("enter the number "))
+            var m=r.toString(8)
+            document.write(`the conversion of ${r} to  octal is ${m}`)
            
         }
 

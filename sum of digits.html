@@ -12,15 +12,10 @@
     <script>
         function call()
         {
-            var r=prompt("enter the number ")
-            var rev=" "
-            for( var i=r.length-1;i>=0;i--)
-            {
-                rev +=r[i]
-            }
-            document.write(`${r} is reversed and the out put is "${rev}"`)
-      
-           
+            var a=parseInt(prompt("enter the first number "))
+            var b=parseInt(prompt("enter the second number "))
+            var av=a+b
+            document.write(`the sum of num ${a} and num ${b} is ${av}`)
         }
 
     </script>

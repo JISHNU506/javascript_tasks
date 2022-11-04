@@ -23,19 +23,16 @@
         {
             var a=prompt("enter the first number ")
             var b=prompt("enter the second number ")
-            var max=a>b?a:b
-            while(true)
+          for (let i = 1; i <=a && i<=b; i++)
+          {
+            if(a%i==0 && b%i==0)
             {
-                if(max%a==max%b)
-                {
-                   break
-                }
-                max++
+                var ans=i
             }
-            document.write(`the lc is ${max}`)
-            
-            
            
+          }
+          document.write(`hcf is ${ans}`)
+       
 
 
             
