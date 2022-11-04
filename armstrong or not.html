@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num=parseInt(prompt("enter the num?"))
+       
+         var check=num
+         var rem=0
+        var sum=0
+         var l=num.toString().length
+        while(num!=0)
+        {
+            rem=num%10
+           var res=Math.pow(rem,l)
+            sum=sum+res
+            num=parseInt(num/10)
+        }
+        if(check==sum)
+        {
+            document.write("the num is amstrong")
+        }
+        else
+        {
+            document.write("the num is not amstrong")
+        }
+
+    </script>
+</body>
+</html>

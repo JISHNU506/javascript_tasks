@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><button onclick="call()" style="border: 10PX double green;">YES IAM IN</button></center>
+    <script>
+        
+        function call(){
+            var a=[7,8,9,4,5,6,1,2,3,5]
+            var max=a[0]
+            for(var i=0;i<a.length;i++)
+            {
+                if (a[i]>max) {
+                    max=a[i]
+                    
+                }
+            }
+            document.write(`the largest number is ${max}`)
+        }
+    </script>
+</body>
+</html>

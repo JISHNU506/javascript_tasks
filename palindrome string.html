@@ -1,0 +1,32 @@
++<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center><button onclick="call()" style="border: 10PX double green;">YES IAM IN</button></center>
+    <script>
+        function call()
+        {
+            var str=prompt("enter the string you wnt to check ")
+            var msg="is a 'palindrome'"
+            var l=str.length
+            for (let i = 0; i < l/2; i++) {
+                if (str[i]!=str[l-1-i])
+                 {
+                   msg= " NOT palindrome"
+                }
+                
+            }
+            document.write(`the given ${str} ${msg}`)
+           
+        }
+
+    </script>
+
+</body>
+</html>

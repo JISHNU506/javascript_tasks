@@ -1,0 +1,32 @@
++<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center><button onclick="call()" style="border: 10PX double green;">YES IAM IN</button></center>
+    <script>
+        function call()
+        {
+            var a=parseInt(prompt("enter the number "))
+            if(a==0){
+                document.write("the given num is zerro")
+            }
+            else{
+            if(a%2==0)
+            {
+                document.write(`the given num ${a} is Even`)
+            }
+            else{
+                document.write(`the given num ${a} is odd`)
+            }
+        }
+    }
+    </script>
+
+</body>
+</html>

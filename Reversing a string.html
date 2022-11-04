@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="call()" style="border: 10PX double green;">YES IAM IN</button>
+    <script>
+        function call()
+        {
+            var r=prompt("enter the string ")
+            var n=" "
+            for( var i=r.length-1;i>=0;i--)
+            {
+                n +=r[i]
+            }
+            document.write(`the reversed string is "${n}"`)
+      
+           
+        }
+
+    </script>
+
+</body>
+</html>
